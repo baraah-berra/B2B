@@ -8,7 +8,7 @@
 
 **The website uses [Context](https://react.dev/reference/react/useContext "useContext") and [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage "localStorage") to store Cart's items and Favorites.**
 
-**I used [DummyJSON](https://dummyjson.com/ "DummyJSON") API to get all the products data in [products.js](https://github.com/M0hanad1/B2B/blob/main/src/data/products.js "Products Data").**
+
 
 ## Try it
 
