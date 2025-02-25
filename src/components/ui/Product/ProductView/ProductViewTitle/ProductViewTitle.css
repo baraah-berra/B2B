@@ -1,0 +1,24 @@
+.product-view-title {
+    flex-direction: column;
+    gap: 0 !important;
+}
+
+.product-view-title h2 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.product-view-title p {
+    margin-block: 8px 0;
+    font-size: 18px;
+    color: var(--light-text-color);
+}
+
+@media (max-width: 991px) {
+    .product-view-title h2 {
+        font-size: 35px;
+    }
+    .product-view-title p {
+        font-size: 16px;
+    }
+}

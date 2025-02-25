@@ -1,0 +1,65 @@
+.total {
+    border-radius: var(--main-border-radius);
+    background-color: var(--darker-color);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0px 0px 5px var(--second-color);
+}
+
+.total p {
+    font-size: 30px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .total p {
+        font-size: 25px;
+    }
+}
+
+.total .price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.total button {
+    border-radius: var(--main-border-radius);
+    padding-block: 15px;
+    font-size: 25px;
+    transition: 0.3s;
+    font-weight: bold;
+    color: var(--darker-color);
+    width: 160px;
+}
+
+@media (max-width: 767px) {
+    .total button {
+        font-size: 20px;
+        width: 150px;
+    }
+}
+
+.total button:hover {
+    transform: rotate(2deg);
+}
+
+.total .buy {
+    background-color: var(--main-color);
+}
+
+.total .buy:hover {
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+.total .clear {
+    background-color: var(--red-color);
+}
+
+.total .clear:hover {
+    box-shadow: 0 0 10px var(--red-color);
+}

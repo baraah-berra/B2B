@@ -1,0 +1,39 @@
+.landing {
+    height: calc(100vh - 70px);
+    height: calc(100svh - 70px);
+    background-size: cover;
+    background-position: top;
+    background-image: url(/landing.jpg);
+}
+
+.landing .container {
+    height: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing h2 {
+    margin-block: 0 15px;
+    font-size: 40px;
+}
+
+.landing p {
+    margin-block: 0 35px;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .landing h2 {
+        font-size: 35px;
+    }
+    .landing p {
+        margin-bottom: 30px;
+    }
+    .landing .button-link {
+        font-size: 23px;
+    }
+}

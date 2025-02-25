@@ -1,0 +1,10 @@
+.product-title {
+    font-size: 30px;
+    text-decoration: underline;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.product-title:hover {
+    color: var(--main-hover-color) !important;
+}

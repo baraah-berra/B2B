@@ -1,0 +1,28 @@
+.image-loader {
+    border-radius: var(--main-border-radius);
+    height: inherit;
+    position: relative;
+    background-color: var(--darker-color);
+    overflow: hidden;
+}
+
+.image-loader::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    opacity: 0.2;
+    top: 100%;
+    left: 0;
+    background-color: var(--second-color);
+    animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+    30% {
+        top: -50%;
+    }
+    100% {
+        top: -50%;
+    }
+}

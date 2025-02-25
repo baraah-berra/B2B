@@ -1,0 +1,9 @@
+.products-cart {
+    padding-block: var(--section-padding);
+}
+
+.products-cart .container {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}

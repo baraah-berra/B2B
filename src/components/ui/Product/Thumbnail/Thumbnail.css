@@ -1,0 +1,30 @@
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail .image-loader {
+    height: 150px;
+    background-color: var(--background-color);
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.thumbnail button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.thumbnail i {
+    font-size: 28px;
+    transition: 0.3s;
+    color: var(--red-color);
+}
+
+.thumbnail i:hover {
+    text-shadow: 0 0 8px var(--red-color);
+}

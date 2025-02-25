@@ -1,0 +1,43 @@
+.section-title {
+    text-align: center;
+    cursor: default;
+    margin-bottom: var(--section-padding);
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-size: 80px;
+    position: relative;
+    transition: 0.5s;
+    bottom: 0;
+}
+
+.section-title p {
+    margin-block: -8px 0;
+    font-weight: bold;
+    opacity: 0;
+    position: relative;
+    bottom: 40px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .section-title h2 {
+        font-size: 73px;
+    }
+    .section-title p {
+        font-size: 18px;
+    }
+}
+
+.section-title:hover p {
+    opacity: 0.8;
+    bottom: 0;
+}
+
+.section-title:hover h2 {
+    bottom: 10px;
+}

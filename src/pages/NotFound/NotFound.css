@@ -1,0 +1,31 @@
+.not-found {
+    display: flex;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.not-found h1 {
+    margin: 0;
+    font-size: 100px;
+    letter-spacing: 10px;
+    line-height: 100px;
+}
+
+.not-found p {
+    margin-block: 20px 40px;
+    font-size: 28px;
+}
+
+@media (max-width: 767px) {
+    .not-found p {
+        font-size: 23px;
+    }
+    .not-found .button-link {
+        font-size: 23px;
+    }
+}

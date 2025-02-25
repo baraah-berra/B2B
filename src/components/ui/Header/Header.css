@@ -1,0 +1,33 @@
+header {
+    box-shadow: 0 1px 4px var(--second-color);
+    width: 100%;
+    background-color: var(--background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+header.hide {
+    top: -80px;
+}
+
+header .container {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    gap: 35px;
+}
+
+@media (max-width: 767px) {
+    header .container {
+        gap: 15px;
+    }
+}
+
+header + * {
+    margin-top: 70px;
+}

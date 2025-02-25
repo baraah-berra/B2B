@@ -1,0 +1,16 @@
+.no-products {
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    grid-column: span 4;
+}
+
+@media (max-width: 767px) {
+    .no-products {
+        font-size: 40px;
+    }
+}
+
+.no-products h3 {
+    margin: 0;
+}

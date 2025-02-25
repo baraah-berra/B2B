@@ -1,0 +1,28 @@
+.filter-option {
+    border-bottom: 1px solid var(--second-color);
+    text-align: start;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: var(--main-text-color);
+    transition: 0.3s;
+}
+
+.filter-option:hover {
+    background-color: var(--second-color);
+}
+
+.filter-option:last-child {
+    border: none;
+}
+
+.filter-option i {
+    font-size: 23px;
+    margin-right: 10px;
+    color: var(--main-color);
+}

@@ -1,0 +1,45 @@
+ .button-link {
+    color: var(--main-text-color);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid var(--main-color);
+    border-radius: var(--main-border-radius);
+    transition: 0.3s;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.button-link:hover {
+    background-color: var(--main-color);
+    color: var(--darker-color);
+}
+.button-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.car-svg {
+    width: 200px;
+    height: 100px;
+}
+
+.placeholder {
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+.placeholder:hover {
+    fill: #FFD700;
+}
+
+.button-content {
+    text-align: center;
+}
+
+.button-link {
+    text-decoration: none;
+    color: inherit;
+}

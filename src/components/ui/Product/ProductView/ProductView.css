@@ -1,0 +1,29 @@
+.product-view {
+    padding-block: var(--section-padding);
+}
+
+.product-view .container {
+    display: flex;
+    gap: 30px;
+    height: 100%;
+}
+
+.product-view .container > * {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .product-view {
+        padding-block: 20px;
+        height: auto;
+    }
+    .product-view .container {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .product-view .container > * {
+        height: auto;
+    }
+}

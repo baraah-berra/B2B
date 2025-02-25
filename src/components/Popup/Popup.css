@@ -1,0 +1,40 @@
+.popup {
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    position: fixed;
+    width: max-content;
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: var(--main-border-radius);
+    box-shadow: 0 0 10px var(--second-color);
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.popup.show {
+    visibility: visible;
+    opacity: 1;
+    top: 15px;
+}
+
+.popup i {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+@media (max-width: 767px) {
+    .popup {
+        font-size: 16px;
+    }
+    .popup i {
+        font-size: 22px;
+    }
+}

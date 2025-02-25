@@ -1,0 +1,11 @@
+.dollar-price {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.dollar-price span {
+    font-style: italic;
+    font-size: larger;
+    color: var(--light-text-color);
+}
